@@ -221,7 +221,7 @@ function App() {
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }} // Hanya jalankan sekali saat 20% elemen terlihat
           >
-            <div className="p-6 rounded-lg bg-neutral-800/[0.3] gap-2 justify-between grid grid-cols-3 items-center">
+            <div className="p-6 rounded-lg bg-neutral-100 dark:bg-neutral-800/[0.3] gap-2 justify-between grid grid-cols-3 items-center">
               <h2 className="justify-start col-span-2 font-semibold sm:text-lg ">
                 Do you want to collaboration?
               </h2>
