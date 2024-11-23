@@ -80,51 +80,13 @@ function App() {
           <div className="space-y-4">
             <h2 className="uppercase font-semibold text-base">project</h2>
 
-            <div className="cursor-pointer rounded-lg bg-neutral-800/[0.3] hover:bg-neutral-400/10 active:bg-neutral-900/10 border-b-2 border-transparent hover:border-emerald-900 transition duration-200">
-              <a href="#">
-                <img
-                  className="rounded-t-lg"
-                  src="https://tecdn.b-cdn.net/img/new/slides/041.jpg"
-                  alt=""
-                />
-              </a>
-              <div className="p-5">
-                <a href="#">
-                  <h5 className="mb-2 text-lg sm:text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                    Noteworthy technology acquisitions 2021
-                  </h5>
-                </a>
-                <p className="mb-3 text-sm sm:text-base text-gray-700 dark:text-gray-400">
-                  Here are the biggest enterprise technology acquisitions of
-                  2021 so far, in reverse chronological order.
-                </p>
-                <a
-                  href="#"
-                  target="_blank"
-                  className="inline-flex items-center px-4 py-2.5 text-sm font-medium text-center text-white bg-emerald-800 rounded-lg
-                   hover:bg-emerald-900"
-                >
-                  Read more
-                  <svg
-                    className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 14 10"
-                  >
-                    <path stroke="currentColor" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-
             <motion.div
               variants={headerVariants}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.2 }} // Hanya jalankan sekali saat 20% elemen terlihat
             >
-              <div className="cursor-pointer rounded-lg bg-neutral-800/[0.3] hover:bg-neutral-400/10 active:bg-neutral-900/10 border-b-2 border-transparent hover:border-emerald-900 transition duration-200">
+              <div className="cursor-pointer rounded-lg bg-neutral-100 dark:bg-neutral-800/[0.3] hover:bg-neutral-200 dark:hover:bg-neutral-400/10 active:bg-neutral-300 dark:active:bg-neutral-900/10 border-b-2 border-transparent hover:border-emerald-500 dark:hover:border-emerald-900 transition duration-200">
                 <a href="#">
                   <img
                     className="rounded-t-lg"
@@ -145,8 +107,7 @@ function App() {
                   <a
                     href="#"
                     target="_blank"
-                    className="inline-flex items-center px-4 py-2.5 text-sm font-medium text-center text-white bg-emerald-800 rounded-lg
-                   hover:bg-emerald-900"
+                    className="inline-flex items-center px-4 py-2.5 text-sm font-medium text-center text-white bg-emerald-800 rounded-lg hover:bg-emerald-950"
                   >
                     Read more
                     <svg
@@ -169,7 +130,7 @@ function App() {
               whileInView="visible"
               viewport={{ once: true, amount: 0.2 }} // Hanya jalankan sekali saat 20% elemen terlihat
             >
-              <div className="cursor-pointer rounded-lg bg-neutral-800/[0.3] hover:bg-neutral-400/10 active:bg-neutral-900/10 border-b-2 border-transparent hover:border-emerald-900 transition duration-200">
+              <div className="cursor-pointer rounded-lg bg-neutral-100 dark:bg-neutral-800/[0.3] hover:bg-neutral-200 dark:hover:bg-neutral-400/10 active:bg-neutral-300 dark:active:bg-neutral-900/10 border-b-2 border-transparent hover:border-emerald-500 dark:hover:border-emerald-900 transition duration-200">
                 <a href="#">
                   <img
                     className="rounded-t-lg"
@@ -190,8 +151,51 @@ function App() {
                   <a
                     href="#"
                     target="_blank"
-                    className="inline-flex items-center px-4 py-2.5 text-sm font-medium text-center text-white bg-emerald-800 rounded-lg
-                   hover:bg-emerald-900"
+                    className="inline-flex items-center px-4 py-2.5 text-sm font-medium text-center text-white bg-emerald-800 rounded-lg hover:bg-emerald-950"
+                  >
+                    Read more
+                    <svg
+                      className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 14 10"
+                    >
+                      <path stroke="currentColor" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div
+              variants={headerVariants}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.2 }} // Hanya jalankan sekali saat 20% elemen terlihat
+            >
+              <div className="cursor-pointer rounded-lg bg-neutral-100 dark:bg-neutral-800/[0.3] hover:bg-neutral-200 dark:hover:bg-neutral-400/10 active:bg-neutral-300 dark:active:bg-neutral-900/10 border-b-2 border-transparent hover:border-emerald-500 dark:hover:border-emerald-900 transition duration-200">
+                <a href="#">
+                  <img
+                    className="rounded-t-lg"
+                    src="https://tecdn.b-cdn.net/img/new/slides/041.jpg"
+                    alt=""
+                  />
+                </a>
+                <div className="p-5">
+                  <a href="#">
+                    <h5 className="mb-2 text-lg sm:text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                      Noteworthy technology acquisitions 2021
+                    </h5>
+                  </a>
+                  <p className="mb-3 text-sm sm:text-base text-gray-700 dark:text-gray-400">
+                    Here are the biggest enterprise technology acquisitions of
+                    2021 so far, in reverse chronological order.
+                  </p>
+                  <a
+                    href="#"
+                    target="_blank"
+                    className="inline-flex items-center px-4 py-2.5 text-sm font-medium text-center text-white bg-emerald-800 rounded-lg hover:bg-emerald-950"
                   >
                     Read more
                     <svg
