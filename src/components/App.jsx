@@ -49,8 +49,10 @@ function App() {
 
         <section>
           <div className="space-y-4 text-sm sm:text-base">
-            <h2 className="uppercase font-semibold text-base">about me</h2>
-            <p className="text-stone-200/[0.8] ">
+            <h2 className="uppercase font-semibold text-base text-black dark:text-white">
+              about me
+            </h2>
+            <p className="text-gray-800 dark:text-stone-200/[0.8]">
               I am graduated from smk with a multimedia major, which has a very
               high interest in technology and design for web development. I have
               been actively learning web development since in senior high
@@ -59,13 +61,13 @@ function App() {
               and gaining valuable hands-on experience.
             </p>
 
-            <p className="text-stone-200/[0.8] ">
+            <p className="text-gray-800 dark:text-stone-200/[0.8]">
               My current focus is on React and Next.js ecosystem where i have
               honed my skill in building frontend application. I strive to
               create beautiful websites and user-friendly web experiences in my
               work.
             </p>
-            <p className="text-stone-200/[0.8] ">
+            <p className="text-gray-800 dark:text-stone-200/[0.8]">
               I am committed to contionously learning, stay updated with
               industry standarts and latest technologies. My ultimate goal is to
               become a skilled and professional software engineer who can make a
