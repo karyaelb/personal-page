@@ -12,7 +12,7 @@ function App() {
         <section>
           <h2 className="text-3xl sm:text-4xl mb-2">Karya Lingga</h2>
           <h2 className="text-3xl sm:text-4xl font-semibold">
-            Fullstack Web Developer
+            Frontend Web Developer
           </h2>
         </section>
 
@@ -38,13 +38,13 @@ function App() {
           >
             instagram
           </a>
-          <a
+          {/* <a
             className="underline hover:no-underline"
             href="https://twitter.com/karyaelb"
             target="_blank"
           >
             x
-          </a>
+          </a> */}
         </section>
 
         <section>
@@ -87,25 +87,25 @@ function App() {
               viewport={{ once: true, amount: 0.2 }} // Hanya jalankan sekali saat 20% elemen terlihat
             >
               <div className="cursor-pointer rounded-lg bg-neutral-100 dark:bg-neutral-800/[0.3] hover:bg-neutral-200 dark:hover:bg-neutral-400/10 active:bg-neutral-300 dark:active:bg-neutral-900/10 border-b-2 border-transparent hover:border-emerald-500 dark:hover:border-emerald-900 transition duration-200">
-                <a href="#">
+                <a href="https://dynahunt.vercel.app/" target="_blank">
                   <img
                     className="rounded-t-lg"
-                    src="https://tecdn.b-cdn.net/img/new/slides/041.jpg"
-                    alt=""
+                    src="/dynahunt.webp"
+                    alt="dynahunt.webp"
                   />
                 </a>
                 <div className="p-5">
-                  <a href="#">
+                  <a href="https://dynahunt.vercel.app/" target="_blank">
                     <h5 className="mb-2 text-lg sm:text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                      Noteworthy technology acquisitions 2021
+                      Dynahunt
                     </h5>
                   </a>
                   <p className="mb-3 text-sm sm:text-base text-gray-700 dark:text-gray-400">
-                    Here are the biggest enterprise technology acquisitions of
-                    2021 so far, in reverse chronological order.
+                    Platform untuk cari Influencer yang bisa di-hire untuk
+                    sebuah advertising campaign.
                   </p>
                   <a
-                    href="#"
+                    href="https://dynahunt.vercel.app/"
                     target="_blank"
                     className="inline-flex items-center px-4 py-2.5 text-sm font-medium text-center text-white bg-emerald-800 rounded-lg hover:bg-emerald-950"
                   >
@@ -228,7 +228,7 @@ function App() {
 
               <button
                 className="inline-flex items-center p-2 text-center text-white bg-emerald-800 rounded-lg row-span-2 justify-self-end 
-           md:max-w-44 md:px-6 md:py-4 capitalize focus:ring focus:ring-emerald-300 text-sm sm:text-base hover:bg-emerald-900"
+                md:max-w-44 md:px-6 md:py-4 capitalize focus:ring focus:ring-emerald-300 text-sm sm:text-base hover:bg-emerald-900"
               >
                 <a
                   href="mailto:an.karyalingga@gmail.com"
@@ -247,7 +247,7 @@ function App() {
                 </a>
               </button>
 
-              <h2 className="col-span-2 sm:text-base">Let`s work together!</h2>
+              <h2 className="col-span-2 sm:text-base">Mail me!</h2>
             </div>
           </motion.div>
         </section>
@@ -268,9 +268,9 @@ function App() {
               <a href="https://instagram.com/karyaelb" target="_blank">
                 instagram
               </a>
-              <a href="https://twitter.com/karyaelb" target="_blank">
+              {/* <a href="https://twitter.com/karyaelb" target="_blank">
                 x
-              </a>
+              </a> */}
             </div>
             <div className="text-center mt-2 sm:mt-0 sm:text-start sm:order-first">
               © Karya Lingga 2024
