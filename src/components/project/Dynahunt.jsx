@@ -67,18 +67,22 @@ function Dynahunt() {
             <img
               src="/nextjs-icon.png"
               alt="Next.js"
-              className="max-h-full w-auto invert"
+              className="max-h-full w-auto dark:invert"
             />
           </div>
           <div className="flex items-center justify-center h-20">
             <img
               src="/vercel-logo.svg"
               alt="Vercel"
-              className="max-h-full w-auto invert"
+              className="max-h-full w-auto dark:invert"
             />
           </div>
           <div className="flex items-center justify-center h-20">
-            <img src="/daisyui.png" alt="DaisyUI" className="max-h-full w-28" />
+            <img
+              src="/daisyui.png"
+              alt="DaisyUI"
+              className="max-h-full w-28 invert dark:invert-0"
+            />
           </div>
           <div className="flex items-center justify-center h-20">
             <img
