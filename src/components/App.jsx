@@ -89,6 +89,51 @@ function App() {
               viewport={{ once: true, amount: 0.2 }}
             >
               <div className=" rounded-lg bg-neutral-100 dark:bg-neutral-800/[0.3] hover:bg-neutral-200 dark:hover:bg-neutral-400/10 active:bg-neutral-300 dark:active:bg-neutral-900/10 border-b-2 border-transparent hover:border-slate-400 dark:hover:border-slate-600 transition duration-200">
+                <Link to="/quizz">
+                  <img
+                    className="rounded-t-lg"
+                    src="/quizz.png"
+                    alt="quizz.png"
+                  />
+                </Link>
+
+                <div className="p-5">
+                  <Link to="/quizz">
+                    <h5 className="mb-2 text-lg sm:text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                      React Quizz App
+                    </h5>
+                  </Link>
+                  <p className="mb-3 text-sm sm:text-base text-gray-700 dark:text-gray-400">
+                    Demo aplikasi kuis edukatif berbasis web yang dibangun
+                    menggunakan ReactJS dan Vite sebagai bundler modern.
+                  </p>
+                  <Link
+                    to="/dynahunt"
+                    className="inline-flex items-center px-4 py-2.5 text-sm font-medium text-center text-white bg-slate-700 rounded-lg hover:bg-slate-900"
+                  >
+                    Read more
+                    <svg
+                      className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 14 10"
+                    >
+                      <path stroke="currentColor" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                    </svg>
+                  </Link>
+                </div>
+              </div>
+            </motion.div>
+
+            {/* project 2 */}
+            <motion.div
+              variants={headerVariants}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.2 }}
+            >
+              <div className=" rounded-lg bg-neutral-100 dark:bg-neutral-800/[0.3] hover:bg-neutral-200 dark:hover:bg-neutral-400/10 active:bg-neutral-300 dark:active:bg-neutral-900/10 border-b-2 border-transparent hover:border-slate-400 dark:hover:border-slate-600 transition duration-200">
                 <Link to="/dynahunt">
                   <img
                     className="rounded-t-lg"
@@ -126,7 +171,7 @@ function App() {
               </div>
             </motion.div>
 
-            {/* project 2 */}
+            {/* project 3 */}
             <motion.div
               variants={headerVariants}
               initial="hidden"
